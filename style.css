@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    height: 500px;
+    background-color: #E05A32;
+    position: relative;
+}
+.slidImage{
+    border: 4px solid rgb(104, 170, 199);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+    
+}
+.buttons{
+   margin: 20px 0px 0px 600px;
+}
+.buttons button{
+    width: 110px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+.Previous{
+    background-color: #E05A32;
+}
+.Next{
+    background-color: #EE7A68;
+}
